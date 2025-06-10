@@ -11,6 +11,12 @@
       "nombre": "prueba3",
       "usuario": "prueba3",
       "contrasena": "3"
+    },
+    {
+      "id": "b5c5",
+      "nombre": "Alicia",
+      "usuario": "alicia",
+      "contrasena": "agudelo"
     }
   ],
   "matriculas": [
@@ -31,6 +37,15 @@
       "direccion": "calle falsa 3",
       "correo": "samu@gmail.com",
       "telefono": "1234567999"
+    },
+    {
+      "id": "ca72",
+      "nombre": "Alicia Agudelo",
+      "cedula": "123456789",
+      "grado": "01",
+      "direccion": "CL 64 BA #104-25 INT 603",
+      "correo": "alicia@gmail.com",
+      "telefono": "3016425336"
     }
   ],
   "notas": [
@@ -54,6 +69,20 @@
       "materia": "Matemáticas",
       "n1": 3,
       "n2": 3.2
+    },
+    {
+      "id": "dee6",
+      "cedula": "123456789",
+      "materia": "Matemáticas",
+      "n1": 2.2,
+      "n2": 3.8
+    },
+    {
+      "id": "89db",
+      "cedula": "123456789",
+      "materia": "Biología",
+      "n1": 5,
+      "n2": 4.5
     }
   ]
 }

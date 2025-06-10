@@ -22,10 +22,10 @@ const Notas = () => {
   useEffect(() => {
     const fetchDatos = async () => {
       try {
-        const resMatriculas = await fetch('http://localhost:3001/matriculas');
+        const resMatriculas = await fetch('http://localhost:3000/matriculas');
         const dataMatriculas = await resMatriculas.json();
 
-        const resNotas = await fetch('http://localhost:3001/notas');
+        const resNotas = await fetch('http://localhost:3000/notas');
         const dataNotas = await resNotas.json();
 
         setMatriculas(dataMatriculas);
@@ -65,8 +65,8 @@ const Notas = () => {
 
     const metodo = notaExistente ? 'PUT' : 'POST';
     const url = notaExistente
-      ? `http://localhost:3001/notas/${notaExistente.id}`
-      : 'http://localhost:3001/notas';
+      ? `http://localhost:3000/notas/${notaExistente.id}`
+      : 'http://localhost:3000/notas';
 
     const notaData = {
       cedula,

@@ -29,14 +29,14 @@ const Matriculas = () => {
     }
 
     try {
-      const resCheck = await fetch(`http://localhost:3001/matriculas?cedula=${formData.cedula}`);
+      const resCheck = await fetch(`http://localhost:3000/matriculas?cedula=${formData.cedula}`);
       const dataCheck = await resCheck.json();
       if (dataCheck.length > 0) {
         alert('Ya existe un estudiante con esa cédula');
         return;
       }
 
-      const res = await fetch('http://localhost:3001/matriculas', {
+      const res = await fetch('http://localhost:3000/matriculas', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
