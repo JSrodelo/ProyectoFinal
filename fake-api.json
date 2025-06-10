@@ -1,0 +1,59 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "administrador",
+      "usuario": "admin",
+      "contrasena": "admin"
+    },
+    {
+      "id": "5156",
+      "nombre": "prueba3",
+      "usuario": "prueba3",
+      "contrasena": "3"
+    }
+  ],
+  "matriculas": [
+    {
+      "id": "9d99",
+      "nombre": "Juan Arandano",
+      "cedula": "1017925689",
+      "grado": "11",
+      "direccion": "calle falsisima 2",
+      "correo": "arandano@gmail.com",
+      "telefono": "31279457300"
+    },
+    {
+      "id": "84fa",
+      "nombre": "Samuel crack",
+      "cedula": "1234567890",
+      "grado": "11",
+      "direccion": "calle falsa 3",
+      "correo": "samu@gmail.com",
+      "telefono": "1234567999"
+    }
+  ],
+  "notas": [
+    {
+      "id": "e794",
+      "cedula": "1017925689",
+      "materia": "Biología",
+      "n1": 1,
+      "n2": 2.2
+    },
+    {
+      "id": "ac42",
+      "cedula": "1234567890",
+      "materia": "Física",
+      "n1": 5,
+      "n2": 4.4
+    },
+    {
+      "id": "1853",
+      "cedula": "1234567890",
+      "materia": "Matemáticas",
+      "n1": 3,
+      "n2": 3.2
+    }
+  ]
+}

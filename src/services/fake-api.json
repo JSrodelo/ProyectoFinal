@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "administrador",
+      "usuario": "admin",
+      "contrasena": "admin"
+    },
+    {
+      "id": "f526",
+      "nombre": "Profesor 1",
+      "usuario": "profe1",
+      "contrasena": "123"
+    },
+    {
+      "id": "3422",
+      "nombre": "Profesor 2",
+      "usuario": "Profe2",
+      "contrasena": "123"
+    },
+    {
+      "id": "c4d7",
+      "nombre": "prueba1",
+      "usuario": "prueba1",
+      "contrasena": "1"
+    }
+  ],
+  "matriculas": [],
+  "notas": []
+}
